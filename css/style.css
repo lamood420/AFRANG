@@ -27,6 +27,7 @@
   --danger: #dc3545;
   --light: #FFFFFF;
   --dark: #212121;
+  --logo: #f5e698;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
@@ -52,6 +53,14 @@ html {
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
+
+#sora{
+  width:50%;
+  height: 30%;
+  margin-left: -30px;
+}
+
+
 
 body {
   margin: 0;
@@ -3922,11 +3931,12 @@ input[type="button"].btn-block {
   flex-wrap: wrap;
   padding-left: 0;
   margin-bottom: 0;
+  margin-left: 0;
   list-style: none;
 }
 
 .nav-link {
-  display: block;
+  display:flex;
   padding: 0.5rem 1rem;
 }
 
